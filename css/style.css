@@ -1,0 +1,1175 @@
+@media screen and (min-width: 320px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; 
+    }
+
+    main{
+        height: 775px;
+        font-size: 18px;
+        font-family: 'Hanken Grotesk', sans-serif;
+    }
+
+    .hero{
+        width: 100%;
+        height: 350px; 
+        border: 1px solid hsl(241, 81%, 54%);
+        background: linear-gradient(to bottom, hsl(241, 81%, 54%), hsla(256, 72%, 46%, 1));
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom-right-radius: 2em;
+        border-bottom-left-radius: 2em;
+    }
+
+    .primary{
+        width: 7em;
+        height: 7em;
+        margin-top: 1.2em;
+        border: 1px solid hsla(256, 72%, 46%, 1);
+        background-color: hsla(256, 72%, 46%, 1);
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    h3{
+        margin-top: -1em;
+        font-size: 1em;
+        font-weight: 700;
+        color: hsl(241, 100%, 89%);
+    }
+
+    .primary p{
+        border: 0.1em solid hsla(256, 72%, 46%, 1);
+        margin-top: 1.5em;
+        margin-left: 2em;
+        margin-right: 2em;
+        color:  hsl(221, 100%, 96%);
+        font-weight: 500;
+        font-size: 0.8em;
+    }
+
+    span{
+        color: hsl(221, 100%, 96%);
+        font-size: 3em;
+        font-weight: 800;
+    }
+
+    .hero h2{
+        margin-top: 1.2em;
+        color:  hsl(221, 100%, 96%);
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+
+    .remark{
+        color: hsl(241, 100%, 89%);
+        font-weight: 500;
+        font-size: 0.8em;
+        text-align: center;
+        margin: 0.8em 3em 0 3em;
+        line-height: 1.4em;
+    }
+
+    #summary{
+        padding: 1.5em;
+        color: hsl(224, 30%, 27%);
+        font-size: 0.9em;
+        font-weight: 700;
+    }
+
+    .course_1{
+        border: 0.1em solid hsla(0, 100%, 67%, 0.05);
+        background-color: hsla(0, 100%, 67%, 0.05);
+        border-radius: 0.4em;
+        margin: -.2em 1.4em 0.75em 1.4em;
+    }
+
+    .course_1 p{
+        color: hsl(0, 100%, 67%);
+    }
+
+    .course_2{
+        border: 0.1em solid hsla(39, 100%, 56%, 0.05);
+        background-color: hsla(39, 100%, 56%, 0.05);
+        border-radius: 0.4em;
+        margin: 0 1.4em 0.75em 1.4em;
+    }
+
+    .course_2 p{
+        color: hsl(39, 100%, 56%);
+    }
+
+    .course_3{
+        border: 0.1em solid hsla(166, 100%, 37%, 0.05);
+        background-color: hsla(166, 100%, 37%, 0.05);
+        border-radius: 0.4em;
+        margin: 0 1.4em 0.75em 1.4em;
+    }
+
+    .course_3 p{
+        color: hsl(166, 100%, 37%);
+    }
+
+    .course_4{
+        border: 0.1em solid hsla(234, 85%, 45%, 0.05);
+        background-color: hsla(234, 85%, 45%, 0.05);
+        border-radius: 0.4em;
+        margin: 0 1.4em 0.75em 1.4em;
+    }
+
+    .course_4 p{
+        color: hsl(234, 85%, 45%);
+    }
+
+    ul{
+        padding: 0.8em 0.7em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    li{
+        display: flex;
+        text-decoration: none;
+    }
+
+    li img{
+        width: 1em;
+        height: 1em;
+        margin-top: 0.1em;
+    }
+
+    li:last-child{
+        font-weight: 700;
+        font-size: 0.9em;
+    }
+
+    li p{
+        margin-left: 0.5em;
+        font-weight: 700;
+        font-size: 0.9em;
+    }
+
+    button{
+        color: hsl(221, 100%, 96%);
+        background-color: hsl(224, 30%, 27%);
+        font-size: 1em;
+        font-weight: 700;
+        padding: 0.8em 5.4em;
+        margin: 0.8em 1.4em;
+        border-radius: 2em; 
+        cursor: pointer;
+        border-style: none;
+    }
+
+    a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    button:hover{
+        background-color: hsl(234, 85%, 45%);
+    } 
+}
+
+@media screen and (min-width: 375px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; 
+    }
+
+    main{
+        height: 775px;
+        font-size: 18px;
+        font-family: 'Hanken Grotesk', sans-serif;
+    }
+
+    .hero{
+        width: 100%;
+        height: 350px; 
+        border: 1px solid hsl(241, 81%, 54%);
+        background: linear-gradient(to bottom, hsl(241, 81%, 54%), hsla(256, 72%, 46%, 1));
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom-right-radius: 2em;
+        border-bottom-left-radius: 2em;
+    }
+
+    .primary{
+        width: 7em;
+        height: 7em;
+        margin-top: 1.2em;
+        border: 1px solid hsla(256, 72%, 46%, 1);
+        background-color: hsla(256, 72%, 46%, 1);
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    h3{
+        margin-top: -1em;
+        font-size: 1em;
+        font-weight: 700;
+        color: hsl(241, 100%, 89%);
+    }
+
+    .primary p{
+        border: 0.1em solid hsla(256, 72%, 46%, 1);
+        margin-top: 1.5em;
+        margin-left: 2em;
+        margin-right: 2em;
+        color:  hsl(221, 100%, 96%);
+        font-weight: 500;
+        font-size: 0.8em;
+    }
+
+    span{
+        color: hsl(221, 100%, 96%);
+        font-size: 3em;
+        font-weight: 800;
+    }
+
+    .hero h2{
+        margin-top: 1.2em;
+        color:  hsl(221, 100%, 96%);
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+
+    .remark{
+        color: hsl(241, 100%, 89%);
+        font-weight: 500;
+        font-size: 0.9em;
+        text-align: center;
+        margin: 0.6em 3em 0 3em;
+        line-height: 1.4em;
+    }
+
+    #summary{
+        padding: 1.5em;
+        color: hsl(224, 30%, 27%);
+        font-size: 0.9em;
+        font-weight: 700;
+    }
+
+    .course_1{
+        border: 0.1em solid hsla(0, 100%, 67%, 0.05);
+        background-color: hsla(0, 100%, 67%, 0.05);
+        border-radius: 0.4em;
+        margin: -.2em 1.4em 0.75em 1.4em;
+    }
+
+    .course_1 p{
+        color: hsl(0, 100%, 67%);
+    }
+
+    .course_2{
+        border: 0.1em solid hsla(39, 100%, 56%, 0.05);
+        background-color: hsla(39, 100%, 56%, 0.05);
+        border-radius: 0.4em;
+        margin: 0 1.4em 0.75em 1.4em;
+    }
+
+    .course_2 p{
+        color: hsl(39, 100%, 56%);
+    }
+
+    .course_3{
+        border: 0.1em solid hsla(166, 100%, 37%, 0.05);
+        background-color: hsla(166, 100%, 37%, 0.05);
+        border-radius: 0.4em;
+        margin: 0 1.4em 0.75em 1.4em;
+    }
+
+    .course_3 p{
+        color: hsl(166, 100%, 37%);
+    }
+
+    .course_4{
+        border: 0.1em solid hsla(234, 85%, 45%, 0.05);
+        background-color: hsla(234, 85%, 45%, 0.05);
+        border-radius: 0.4em;
+        margin: 0 1.4em 0.75em 1.4em;
+    }
+
+    .course_4 p{
+        color: hsl(234, 85%, 45%);
+    }
+
+    ul{
+        padding: 0.8em 0.7em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    li{
+        display: flex;
+        text-decoration: none;
+    }
+
+    li img{
+        width: 1em;
+        height: 1em;
+        margin-top: 0.1em;
+    }
+
+    li:last-child{
+        font-weight: 700;
+        font-size: 0.9em;
+    }
+
+    li p{
+        margin-left: 0.5em;
+        font-weight: 700;
+        font-size: 0.9em;
+    }
+
+    button{
+        color: hsl(221, 100%, 96%);
+        background-color: hsl(224, 30%, 27%);
+        font-size: 1em;
+        font-weight: 700;
+        padding: 0.9em 6.8em;
+        margin: 0.8em 1.4em;
+        border-radius: 2em; 
+        cursor: pointer;
+        border-style: none;
+    }
+
+    a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    button:hover{
+        background-color: hsl(234, 85%, 45%);
+    } 
+}
+
+@media screen and (min-width: 425px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; 
+    }
+    
+    main{
+        height: 775px;
+        font-size: 18px;
+        font-family: 'Hanken Grotesk', sans-serif;
+    }
+    
+    .hero{
+        width: 100%;
+        height: 350px; 
+        border: 1px solid hsl(241, 81%, 54%);
+        background: linear-gradient(to bottom, hsl(241, 81%, 54%), hsla(256, 72%, 46%, 1));
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom-right-radius: 2em;
+        border-bottom-left-radius: 2em;
+    }
+    
+    .primary{
+        width: 7em;
+        height: 7em;
+        margin-top: 1.2em;
+        border: 1px solid hsla(256, 72%, 46%, 1);
+        background-color: hsla(256, 72%, 46%, 1);
+        border-radius: 50%;
+        text-align: center;
+    }
+    
+    h3{
+        margin-top: -1em;
+        font-size: 1em;
+        font-weight: 700;
+        color: hsl(241, 100%, 89%);
+    }
+    
+    .primary p{
+        border: 0.1em solid hsla(256, 72%, 46%, 1);
+        margin-top: 1.5em;
+        margin-left: 2em;
+        margin-right: 2em;
+        color:  hsl(221, 100%, 96%);
+        font-weight: 500;
+        font-size: 0.8em;
+    }
+    
+    span{
+        color: hsl(221, 100%, 96%);
+        font-size: 3em;
+        font-weight: 800;
+    }
+    
+    .hero h2{
+        margin-top: 1.2em;
+        color:  hsl(221, 100%, 96%);
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+    
+    .remark{
+        color: hsl(241, 100%, 89%);
+        font-weight: 500;
+        font-size: 0.9em;
+        text-align: center;
+        margin: 0.6em 3em 0 3em;
+        line-height: 1.4em;
+    }
+    
+    #summary{
+        padding: 1.5em;
+        color: hsl(224, 30%, 27%);
+        font-size: 0.9em;
+        font-weight: 700;
+    }
+    
+    .course_1{
+        border: 0.1em solid hsla(0, 100%, 67%, 0.05);
+        background-color: hsla(0, 100%, 67%, 0.05);
+        border-radius: 0.4em;
+        margin: -.2em 1.4em 0.75em 1.4em;
+    }
+    
+    .course_1 p{
+        color: hsl(0, 100%, 67%);
+    }
+    
+    .course_2{
+        border: 0.1em solid hsla(39, 100%, 56%, 0.05);
+        background-color: hsla(39, 100%, 56%, 0.05);
+        border-radius: 0.4em;
+        margin: 0 1.4em 0.75em 1.4em;
+    }
+    
+    .course_2 p{
+        color: hsl(39, 100%, 56%);
+    }
+    
+    .course_3{
+        border: 0.1em solid hsla(166, 100%, 37%, 0.05);
+        background-color: hsla(166, 100%, 37%, 0.05);
+        border-radius: 0.4em;
+        margin: 0 1.4em 0.75em 1.4em;
+    }
+    
+    .course_3 p{
+        color: hsl(166, 100%, 37%);
+    }
+    
+    .course_4{
+        border: 0.1em solid hsla(234, 85%, 45%, 0.05);
+        background-color: hsla(234, 85%, 45%, 0.05);
+        border-radius: 0.4em;
+        margin: 0 1.4em 0.75em 1.4em;
+    }
+    
+    .course_4 p{
+        color: hsl(234, 85%, 45%);
+    }
+    
+    ul{
+        padding: 0.8em 0.7em;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    li{
+        display: flex;
+        text-decoration: none;
+    }
+    
+    li img{
+        width: 1em;
+        height: 1em;
+        margin-top: 0.1em;
+    }
+    
+    li:last-child{
+        font-weight: 700;
+        font-size: 0.9em;
+    }
+    
+    li p{
+        margin-left: 0.5em;
+        font-weight: 700;
+        font-size: 0.9em;
+    }
+    
+    button{
+        color: hsl(221, 100%, 96%);
+        background-color: hsl(224, 30%, 27%);
+        font-size: 1em;
+        font-weight: 700;
+        padding: 0.9em 8.0em;
+        margin: 0.8em 1.4em;
+        border-radius: 2em; 
+        cursor: pointer;
+        border-style: none;
+    }
+    
+    a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    button:hover{
+        background-color: hsl(234, 85%, 45%);
+    } 
+}
+
+@media screen and (min-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; 
+    }
+    
+    body{
+        font-size: 18px;
+    }
+    
+    main{
+        width: 90%;
+        height: 600px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: 0.2em solid hsl(0, 0%, 100%);
+        background-color: hsl(0, 0%, 100%);
+        font-family: 'Hanken Grotesk', sans-serif;
+    }
+    
+    .container{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 80%;
+        height: 400px;
+        border: .1em solid hsl(0, 0%, 100%);
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 1em;
+        box-shadow: 0px 2px 10px 5px rgba(0, 0, 0, 0.05);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero{
+        width: 50%;
+        height: 400px; 
+        border: 1px solid hsl(241, 81%, 54%);
+        background-color: hsl(241, 81%, 54%);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1em;
+    }
+    
+    .primary{
+        width:6em;
+        height: 6em;
+        margin-top: 1.3em;
+        border: 1px solid hsla(256, 72%, 46%, 1);
+        background-color: hsla(256, 72%, 46%, 1);
+        border-radius: 50%;
+        text-align: center;
+    }
+    
+    h3{
+        margin-top: -0.8em;
+        font-size: 1em;
+        font-weight: 700;
+        color: hsl(241, 100%, 89%);
+    }
+    
+    .primary p{
+        border: 0.1em solid hsla(256, 72%, 46%, 1);
+        margin-top: 1em;
+        margin-left: 2em;
+        margin-right: 2em;
+        color:  hsl(221, 100%, 96%);
+        font-weight: 500;
+        font-size: 0.8em;
+    }
+    
+    span{
+        color: hsl(221, 100%, 96%);
+        font-size: 2.7em;
+        font-weight: 800;
+    }
+    
+    .hero h2{
+        margin-top: 1.5em;
+        color:  hsl(221, 100%, 96%);
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+    
+    .remark{
+        color: hsl(241, 100%, 89%);
+        font-weight: 500;
+        font-size: 0.95em;
+        text-align: center;
+        margin: 1em 1em 0 1em;
+        line-height: 1.4em;
+    }
+    
+    .second_section{
+        width: 50%;
+        height: 400px; 
+        display: flex;
+        flex-direction: column;
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 1em;
+    }
+    #summary{
+        padding: 1.6em 0 1.3em 1.5em;
+        color: hsl(224, 30%, 27%);
+        font-size: 1em;
+        font-weight: 700;
+    }
+    
+    .course_1{
+        border: 0.1em solid hsla(0, 100%, 67%, 0.05);
+        background-color: hsla(0, 100%, 67%, 0.05);
+        border-radius: 0.4em;
+        margin: 0 1.4em 0.7em 1.5em;
+    }
+    
+    .course_1 p{
+        color: hsl(0, 100%, 67%);
+    }
+    
+    .course_2{
+        border: 0.1em solid hsla(39, 100%, 56%, 0.05);
+        background-color: hsla(39, 100%, 56%, 0.05);
+        border-radius: 0.4em;
+        margin: 0 1.4em 0.7em 1.5em;
+    }
+    
+    .course_2 p{
+        color: hsl(39, 100%, 56%);
+    }
+    
+    .course_3{
+        border: 0.1em solid hsla(166, 100%, 37%, 0.05);
+        background-color: hsla(166, 100%, 37%, 0.05);
+        border-radius: 0.4em;
+        margin: 0 1.4em 0.7em 1.5em;
+    }
+    
+    .course_3 p{
+        color: hsl(166, 100%, 37%);
+    }
+    
+    .course_4{
+        border: 0.1em solid hsla(234, 85%, 45%, 0.05);
+        background-color: hsla(234, 85%, 45%, 0.05);
+        border-radius: 0.4em;
+        margin: 0 1.4em 0.7em 1.5em;
+    }
+    
+    .course_4 p{
+        color: hsl(234, 85%, 45%);
+    }
+    
+    ul{
+        padding: 0.8em 0.7em;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    li{
+        display: flex;
+        text-decoration: none;
+    }
+    
+    li img{
+        width: 1em;
+        height: 1em;
+        margin-top: 0.1em;
+    }
+    
+    li:last-child{
+        font-weight: 700;
+        font-size: 0.9em;
+    }
+    
+    li p{
+        margin-left: 0.5em;
+        font-weight: 700;
+        font-size: 0.em;
+    }
+    
+    button{
+        color: hsl(221, 100%, 96%);
+        background-color: hsl(224, 30%, 27%);
+        font-size: .9em;
+        font-weight: 700;
+        padding: 0.5em 4.8em;
+        margin: 0.55em 1.5em;
+        border-radius: 2em; 
+        cursor: pointer;
+        border-style: none;
+    }
+    
+    a{
+        display: flex;
+        justify-content: center;
+    }  
+    
+    button:hover{
+        background-color: hsl(234, 85%, 45%);
+    } 
+}
+
+@media screen and (min-width: 1024px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; 
+    }
+    
+    body{
+        font-size: 18px;
+    }
+    
+    main{
+        width: 80%;
+        height: 600px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: 0.2em solid hsl(0, 0%, 100%);
+        background-color: hsl(0, 0%, 100%);
+        font-family: 'Hanken Grotesk', sans-serif;
+    }
+    
+    .container{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 70%;
+        height: 400px;
+        border: .1em solid hsl(0, 0%, 100%);
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 1em;
+        box-shadow: 0px 2px 10px 5px rgba(0, 0, 0, 0.05);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero{
+        width: 50%;
+        height: 400px; 
+        border: 1px solid hsl(241, 81%, 54%);
+        background-color: hsl(241, 81%, 54%);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1em;
+    }
+    
+    .primary{
+        width:6em;
+        height: 6em;
+        margin-top: 1.3em;
+        border: 1px solid hsla(256, 72%, 46%, 1);
+        background-color: hsla(256, 72%, 46%, 1);
+        border-radius: 50%;
+        text-align: center;
+    }
+    
+    h3{
+        margin-top: -0.8em;
+        font-size: 1em;
+        font-weight: 700;
+        color: hsl(241, 100%, 89%);
+    }
+    
+    .primary p{
+        border: 0.1em solid hsla(256, 72%, 46%, 1);
+        margin-top: 1em;
+        margin-left: 2em;
+        margin-right: 2em;
+        color:  hsl(221, 100%, 96%);
+        font-weight: 500;
+        font-size: 0.8em;
+    }
+    
+    span{
+        color: hsl(221, 100%, 96%);
+        font-size: 2.7em;
+        font-weight: 800;
+    }
+    
+    .hero h2{
+        margin-top: 1.5em;
+        color:  hsl(221, 100%, 96%);
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+    
+    .remark{
+        color: hsl(241, 100%, 89%);
+        font-weight: 500;
+        font-size: 0.95em;
+        text-align: center;
+        margin: 1em 1em 0 1em;
+        line-height: 1.4em;
+    }
+    
+    .second_section{
+        width: 50%;
+        height: 400px; 
+        display: flex;
+        flex-direction: column;
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 1em;
+    }
+    #summary{
+        padding: 1.6em 0 1.3em 1.5em;
+        color: hsl(224, 30%, 27%);
+        font-size: 1em;
+        font-weight: 700;
+    }
+    
+    .course_1{
+        border: 0.1em solid hsla(0, 100%, 67%, 0.05);
+        background-color: hsla(0, 100%, 67%, 0.05);
+        border-radius: 0.4em;
+        margin: 0 1.4em 0.7em 1.5em;
+    }
+    
+    .course_1 p{
+        color: hsl(0, 100%, 67%);
+    }
+    
+    .course_2{
+        border: 0.1em solid hsla(39, 100%, 56%, 0.05);
+        background-color: hsla(39, 100%, 56%, 0.05);
+        border-radius: 0.4em;
+        margin: 0 1.4em 0.7em 1.5em;
+    }
+    
+    .course_2 p{
+        color: hsl(39, 100%, 56%);
+    }
+    
+    .course_3{
+        border: 0.1em solid hsla(166, 100%, 37%, 0.05);
+        background-color: hsla(166, 100%, 37%, 0.05);
+        border-radius: 0.4em;
+        margin: 0 1.4em 0.7em 1.5em;
+    }
+    
+    .course_3 p{
+        color: hsl(166, 100%, 37%);
+    }
+    
+    .course_4{
+        border: 0.1em solid hsla(234, 85%, 45%, 0.05);
+        background-color: hsla(234, 85%, 45%, 0.05);
+        border-radius: 0.4em;
+        margin: 0 1.4em 0.7em 1.5em;
+    }
+    
+    .course_4 p{
+        color: hsl(234, 85%, 45%);
+    }
+    
+    ul{
+        padding: 0.8em 0.7em;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    li{
+        display: flex;
+        text-decoration: none;
+    }
+    
+    li img{
+        width: 1em;
+        height: 1em;
+        margin-top: 0.1em;
+    }
+    
+    li:last-child{
+        font-weight: 700;
+        font-size: 0.9em;
+    }
+    
+    li p{
+        margin-left: 0.5em;
+        font-weight: 700;
+        font-size: 0.em;
+    }
+    
+    button{
+        color: hsl(221, 100%, 96%);
+        background-color: hsl(224, 30%, 27%);
+        font-size: .9em;
+        font-weight: 700;
+        padding: 0.5em 4.8em;
+        margin: 0.55em 1.5em;
+        border-radius: 2em; 
+        cursor: pointer;
+        border-style: none;
+    }
+    
+    a{
+        display: flex;
+        justify-content: center;
+    }  
+    
+    button:hover{
+        background-color: hsl(234, 85%, 45%);
+    } 
+}
+
+@media screen and (min-width: 1440px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; 
+    }
+    
+    body{
+        font-size: 18px;
+    }
+    
+    main{
+        width: 60%;
+        height: 600px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: 0.2em solid hsl(0, 0%, 100%);
+        background-color: hsl(0, 0%, 100%);
+        font-family: 'Hanken Grotesk', sans-serif;
+    }
+    
+    .container{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 70%;
+        height: 400px;
+        border: .1em solid hsl(0, 0%, 100%);
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 1em;
+        box-shadow: 0px 2px 10px 5px rgba(0, 0, 0, 0.05);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero{
+        width: 50%;
+        height: 400px; 
+        border: 1px solid hsl(241, 81%, 54%);
+        background-color: hsl(241, 81%, 54%);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1em;
+    }
+    
+    .primary{
+        width:6em;
+        height: 6em;
+        margin-top: 1.3em;
+        border: 1px solid hsla(256, 72%, 46%, 1);
+        background-color: hsla(256, 72%, 46%, 1);
+        border-radius: 50%;
+        text-align: center;
+    }
+    
+    h3{
+        margin-top: -0.8em;
+        font-size: 1em;
+        font-weight: 700;
+        color: hsl(241, 100%, 89%);
+    }
+    
+    .primary p{
+        border: 0.1em solid hsla(256, 72%, 46%, 1);
+        margin-top: 1em;
+        margin-left: 2em;
+        margin-right: 2em;
+        color:  hsl(221, 100%, 96%);
+        font-weight: 500;
+        font-size: 0.8em;
+    }
+    
+    span{
+        color: hsl(221, 100%, 96%);
+        font-size: 2.7em;
+        font-weight: 800;
+    }
+    
+    .hero h2{
+        margin-top: 1.5em;
+        color:  hsl(221, 100%, 96%);
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+    
+    .remark{
+        color: hsl(241, 100%, 89%);
+        font-weight: 500;
+        font-size: 0.95em;
+        text-align: center;
+        margin: 1.5em 1.5em 0 1.5em;
+        line-height: 1.4em;
+    }
+    
+    .second_section{
+        width: 50%;
+        height: 400px; 
+        display: flex;
+        flex-direction: column;
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 1em;
+    }
+    #summary{
+        padding: 1.6em 0 1.3em 1.5em;
+        color: hsl(224, 30%, 27%);
+        font-size: 1em;
+        font-weight: 700;
+    }
+    
+    .course_1{
+        border: 0.1em solid hsla(0, 100%, 67%, 0.05);
+        background-color: hsla(0, 100%, 67%, 0.05);
+        border-radius: 0.4em;
+        margin: 0 1.4em 0.7em 1.5em;
+    }
+    
+    .course_1 p{
+        color: hsl(0, 100%, 67%);
+    }
+    
+    .course_2{
+        border: 0.1em solid hsla(39, 100%, 56%, 0.05);
+        background-color: hsla(39, 100%, 56%, 0.05);
+        border-radius: 0.4em;
+        margin: 0 1.4em 0.7em 1.5em;
+    }
+    
+    .course_2 p{
+        color: hsl(39, 100%, 56%);
+    }
+    
+    .course_3{
+        border: 0.1em solid hsla(166, 100%, 37%, 0.05);
+        background-color: hsla(166, 100%, 37%, 0.05);
+        border-radius: 0.4em;
+        margin: 0 1.4em 0.7em 1.5em;
+    }
+    
+    .course_3 p{
+        color: hsl(166, 100%, 37%);
+    }
+    
+    .course_4{
+        border: 0.1em solid hsla(234, 85%, 45%, 0.05);
+        background-color: hsla(234, 85%, 45%, 0.05);
+        border-radius: 0.4em;
+        margin: 0 1.4em 0.7em 1.5em;
+    }
+    
+    .course_4 p{
+        color: hsl(234, 85%, 45%);
+    }
+    
+    ul{
+        padding: 0.8em 0.7em;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    li{
+        display: flex;
+        text-decoration: none;
+    }
+    
+    li img{
+        width: 1em;
+        height: 1em;
+        margin-top: 0.1em;
+    }
+    
+    li:last-child{
+        font-weight: 700;
+        font-size: 0.9em;
+    }
+    
+    li p{
+        margin-left: 0.5em;
+        font-weight: 700;
+        font-size: 0.em;
+    }
+    
+    button{
+        color: hsl(221, 100%, 96%);
+        background-color: hsl(224, 30%, 27%);
+        font-size: .9em;
+        font-weight: 700;
+        padding: 0.5em 5.4em;
+        margin: 0.55em 1.5em;
+        border-radius: 2em; 
+        cursor: pointer;
+        border-style: none;
+    }
+    
+    a{
+        display: flex;
+        justify-content: center;
+    }  
+    
+    button:hover{
+        background-color: hsl(234, 85%, 45%);
+    } 
+}
